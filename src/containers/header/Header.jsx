@@ -1,7 +1,26 @@
 import React from "react";
+import { SearchBar } from "../../components"
 
-export const Header = () => {
+import { ReactComponent as MoviefyIcon } from '../../assets/icons/moviefy-icon.svg';
+
+import "./Header.scss";
+
+export const Header = ({ onSearch }) => {
+
+    const handleSearchChange = (event) => {
+        onSearch(event.target.value);
+    }
+
     return (
-        <div></div>
-    )
+        <header>
+            <div className="title">
+                <MoviefyIcon />
+                <span>MOVIEFY</span>
+            </div>
+
+            <SearchBar
+                onSearchChange={handleSearchChange}
+                onSearch={() => { }} />
+        </header>
+    );
 }

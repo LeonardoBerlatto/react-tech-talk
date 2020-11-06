@@ -1,4 +1,4 @@
-import { MoviesScreen, DebugScreen } from './screens';
+import { MoviesScreen } from './screens';
 
 function App() {
   return (
