@@ -1,0 +1,22 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px 10px;
+
+  img {
+    object-fit: cover;
+    width: 150px;
+  }
+
+  span {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    max-width: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+  }
+}

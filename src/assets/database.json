@@ -1,0 +1,30 @@
+[
+    {
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tlvsNCwWEIgwAM23aNzTmMIcPEZ.jpg"
+    },
+    {
+        "name": "The Lord of the Rings: The Two Towers",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u2shqvdy3wRawg5RgWAESMEdz4N.jpg"
+    },
+    {
+        "name": "The Lord of the Rings: The Return of the King",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/izPNMzffsgZUvlbiYlPxjFr3TAa.jpg"
+    },
+    {
+        "name": "The Hobbit: An Unexpected Journey",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/asuSvb1MDN04HftUFxlp7i6ZHpV.jpg"
+    },
+    {
+        "name": "Star Wars: A New Hope",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iSNdwFauC1QODm1ntk07wqJV1pf.jpg"
+    },
+    {
+        "name": "Star Wars: The Empire Strikes Back",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iXXSUFpfBKZimPyugKQShUO5NMS.jpg"
+    },
+    {
+        "name": "Star Wars: Return of the Jedi",
+        "imageUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/e57CeQLHE5WWzWy3oq03IVmAyfp.jpg"
+    }
+]
