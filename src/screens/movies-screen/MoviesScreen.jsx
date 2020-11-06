@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { MovieList, Header } from '../../containers';
+import { Header } from '../../containers';
+import { MovieList } from '../../components';
+
+import moviesData from '../../assets/database.json'
+
 
 import './MoviesScreen.scss'
 
-
-import moviesData from '../../assets/database.json'
 
 export const MoviesScreen = () => {
 

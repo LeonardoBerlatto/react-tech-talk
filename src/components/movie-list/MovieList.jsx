@@ -1,5 +1,5 @@
 import React from 'react'
-import { MovieCard } from '../../components';
+import { MovieCard } from '..';
 import './MovieList.scss'
 
 export const MovieList = ({ movies }) => {
