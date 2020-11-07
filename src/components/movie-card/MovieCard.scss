@@ -2,9 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #3D5AFE;
   padding: 20px;
   margin: 10px 10px;
+
+  &.blue {
+    border: 1px solid #3d5afe;
+  }
+
+  &.red {
+    border: 1px solid red;
+  }
 
   img {
     object-fit: cover;

@@ -4,8 +4,8 @@ import './MovieList.scss'
 
 export const MovieList = ({ movies }) => {
 
-  const renderMovies = () => movies.map((movie,key) => {
-    return <MovieCard name={movie.name} key={key} imageUrl={movie.imageUrl} />
+  const renderMovies = () => movies.map((movie, key) => {
+    return <MovieCard name={movie.name} imageUrl={movie.imageUrl} available={movie.available} key={key} />
   });
 
   return (
